@@ -76,7 +76,7 @@ span[title="first evolution"] {
     border-style: solid;
     border-color: transparent transparent var(--bright-pink-crayola) transparent;
     line-height: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 span[title="evolution 2"] {
@@ -84,7 +84,7 @@ span[title="evolution 2"] {
     border-width: 0.3em;
     border-style: solid;
     border-color: transparent var(--bright-pink-crayola) var(--bright-pink-crayola) transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 span[title="evolution 3"] {
@@ -92,5 +92,5 @@ span[title="evolution 3"] {
     border-width: 0.3em;
     border-style: solid;
     border-color: var(--bright-pink-crayola) var(--bright-pink-crayola) var(--bright-pink-crayola) transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
