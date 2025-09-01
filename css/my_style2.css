@@ -21,7 +21,7 @@
     --red-cmyk: hsla(2, 83%, 52%, 1);
 
 */
-:root{
+:root {
     --bright-pink-crayola: #ee4b6aff;
     --pink: #f4b8c3ff;
     --black: #010001ff;
@@ -31,15 +31,62 @@
     --red-cmyk: #ea261fff;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1, h2 {
     background-color: var(--pink);
-    text-indent: 0.5em;
+    text-indent: 0.75em;
 }
 
-img{
+#pika1 {
     float: right;
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: var(--red-cmyk);
+}
+
+#pika1:hover {
+    border-color: var(--arylide-yellow);
+}
+
+#pika2 {
+    float: right;
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: var(--red-cmyk);
+    width: 7.5%;
+}
+
+.evolution {
+    background-color: var(--flax);
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: transparent var(--black) var(--black) transparent;
+}
+
+ul > li > ul > li {
+    color: var(--bright-pink-crayola)
+}
+
+span[title="first evolution"] {
+    background-color: var(--flax);
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: transparent transparent var(--bright-pink-crayola) transparent;
+}
+
+span[title="evolution 2"] {
+    background-color: var(--flax);
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: transparent var(--bright-pink-crayola) var(--bright-pink-crayola) transparent;
+}
+
+span[title="evolution 3"] {
+    background-color: var(--flax);
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: var(--bright-pink-crayola) var(--bright-pink-crayola) var(--bright-pink-crayola) transparent;
 }
