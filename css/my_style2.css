@@ -35,6 +35,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body > em {
+    font-style: normal;
+    color: var(--bright-pink-crayola);
+    background-color: var(--mimi-pink);
+    padding: 0.6em;
+}
+
 h1, h2 {
     background-color: var(--pink);
     text-indent: 0.75em;
@@ -60,6 +67,7 @@ h1, h2 {
 }
 
 .evolution {
+    line-height: 1.3em;
     background-color: var(--flax);
     border-width: 0.3em;
     border-style: solid;
@@ -71,6 +79,8 @@ ul > li > ul > li {
 }
 
 span[title="first evolution"] {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     background-color: var(--flax);
     border-width: 0.3em;
     border-style: solid;
@@ -80,6 +90,8 @@ span[title="first evolution"] {
 }
 
 span[title="evolution 2"] {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     background-color: var(--flax);
     border-width: 0.3em;
     border-style: solid;
@@ -88,9 +100,33 @@ span[title="evolution 2"] {
 }
 
 span[title="evolution 3"] {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     background-color: var(--flax);
     border-width: 0.3em;
     border-style: solid;
     border-color: var(--bright-pink-crayola) var(--bright-pink-crayola) var(--bright-pink-crayola) transparent;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border: 0.5em;
+    border-style: inset;
+    border-color: var(--pink);
+}
+
+td {
+    border: 0.05em;
+    border-style: solid;
+    border-color: var(--pink);
+}
+
+#footer > a {
+    text-decoration: underline dashed;
+    text-decoration-color: var(--arylide-yellow);
+}
+
+#footer:hover > a {
+    text-decoration: underline;
+    text-decoration-color: var(--arylide-yellow);
 }
